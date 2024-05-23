@@ -1,0 +1,3 @@
+- Installation type: clean installation
+- Bootable environment: Windows PE (6.3.9600)
+- Target operating system: Windows Server 2012 Datacenter Evaluation (6.3.9600)
