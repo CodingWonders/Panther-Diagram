@@ -1,0 +1,221 @@
+﻿2024-05-21 14:27:11, Info                  DISM   PID=1296 TID=1300 Scratch directory set to 'X:\windows\TEMP\'. - CDISMManager::put_ScratchDir
+2024-05-21 14:27:11, Info                  DISM   PID=1296 TID=1300 DismCore.dll version: 6.3.9600.17031 - CDISMManager::FinalConstruct
+2024-05-21 14:27:11, Info                  DISM   PID=1296 TID=1300 Scratch directory set to 'F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e'. - CDISMManager::put_ScratchDir
+2024-05-21 14:27:11, Info                  DISM   PID=1296 TID=1300 Successfully loaded the ImageSession at "X:\Sources" - CDISMManager::LoadLocalImageSession
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:11, Info                  DISM   DISM Manager: PID=1296 TID=1300 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:11, Info                  DISM   DISM.EXE: 
+2024-05-21 14:27:11, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2024-05-21 14:27:11, Info                  DISM   DISM.EXE: 
+2024-05-21 14:27:11, Info                  DISM   DISM.EXE: Host machine information: OS Version=6.3.9600, Running architecture=amd64, Number of processors=2
+2024-05-21 14:27:11, Info                  DISM   DISM.EXE: Dism.exe version: 6.3.9600.17031
+2024-05-21 14:27:11, Info                  DISM   DISM.EXE: Executing command line: X:\Sources\dism.exe  /logpath:F:\$WINDOWS.~BT\Sources\Panther\cbs.log /scratchdir:F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e /image:F:\ /is-serviceable
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Getting the collection of providers from a local provider store type. - CDISMProviderStore::GetProviderCollection
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:11, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Loading Provider from location X:\Sources\FolderProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Connecting to the provider located at X:\Sources\FolderProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Loading Provider from location X:\Sources\WimProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Connecting to the provider located at X:\Sources\WimProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Loading Provider from location X:\Sources\VHDProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Connecting to the provider located at X:\Sources\VHDProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Loading Provider from location X:\Sources\ImagingProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Connecting to the provider located at X:\Sources\ImagingProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Loading Provider from location X:\Sources\CompatProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Connecting to the provider located at X:\Sources\CompatProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Got the collection of providers. Now enumerating them to build the command table.
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Log Provider
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: FolderManager
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: WimManager
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: WimManager.
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: VHDManager
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: GenericImagingManager
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: GenericImagingManager.
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: Compatibility Manager
+2024-05-21 14:27:12, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: Compatibility Manager.
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Getting the collection of providers from a local provider store type. - CDISMProviderStore::GetProviderCollection
+[1296] [0x80070002] FIOReadFileIntoBuffer:(1415): The system cannot find the file specified.
+[1296] [0xc142011c] UnmarshallImageHandleFromDirectory:(511)
+[1296] [0xc142011c] WIMGetMountedImageHandle:(2568)
+2024-05-21 14:27:12, Info                  DISM   DISM WIM Provider: PID=1296 TID=1300 [F:\] is not a WIM mount point. - CWimMountedImageInfo::Initialize
+2024-05-21 14:27:12, Info                  DISM   DISM VHD Provider: PID=1296 TID=1300 [F:\] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Getting Provider VHDManager - CDISMProviderStore::GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM VHD Provider: PID=1296 TID=1300 [F:\] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2024-05-21 14:27:12, Info                  DISM   DISM Imaging Provider: PID=1296 TID=1300 The provider VHDManager does not support CreateDismImage on F:\ - CGenericImagingManager::CreateDismImage
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Getting Provider WimManager - CDISMProviderStore::GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+[1296] [0x80070002] FIOReadFileIntoBuffer:(1415): The system cannot find the file specified.
+[1296] [0xc142011c] UnmarshallImageHandleFromDirectory:(511)
+[1296] [0xc142011c] WIMGetMountedImageHandle:(2568)
+2024-05-21 14:27:12, Info                  DISM   DISM WIM Provider: PID=1296 TID=1300 [F:\] is not a WIM mount point. - CWimMountedImageInfo::Initialize
+2024-05-21 14:27:12, Info                  DISM   DISM Imaging Provider: PID=1296 TID=1300 The provider WimManager does not support CreateDismImage on F:\ - CGenericImagingManager::CreateDismImage
+2024-05-21 14:27:12, Info                  DISM   DISM Imaging Provider: PID=1296 TID=1300 No imaging provider supported CreateDismImage for this path - CGenericImagingManager::CreateDismImage
+2024-05-21 14:27:12, Info                  DISM   DISM Manager: PID=1296 TID=1300 physical location path: F:\ - CDISMManager::CreateImageSession
+2024-05-21 14:27:12, Info                  DISM   DISM Manager: PID=1296 TID=1300 Copying DISM from "F:\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2024-05-21 14:27:12, Info                  DISM   DISM Manager: PID=1296 TID=1300 Successfully loaded the ImageSession at "F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C" - CDISMManager::LoadRemoteImageSession
+2024-05-21 14:27:12, Info                  DISM   DISM Image Session: PID=1340 TID=1348 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\OSProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:12, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:12, Info                  DISM   DISM OS Provider: PID=1340 TID=1348 Defaulting SystemPath to F:\ - CDISMOSServiceManager::Final_OnConnect
+2024-05-21 14:27:12, Info                  DISM   DISM OS Provider: PID=1340 TID=1348 Host OS verion is 6.3 - CDISMOSServiceManager::RunASICompatibilityShim
+2024-05-21 14:27:12, Info                  DISM   DISM OS Provider: PID=1340 TID=1348 Defaulting Windows folder to F:\Windows - CDISMOSServiceManager::Final_OnConnect
+2024-05-21 14:27:12, Info                  DISM   DISM OS Provider: PID=1340 TID=1348 Host OS verion is 6.3 - CDISMOSServiceManager::SetDllSearchPath
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\LogProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\PEProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Warning               DISM   DISM Provider Store: PID=1340 TID=1348 Failed to Load the provider: F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\PEProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Getting Provider DISMLogger - CDISMProviderStore::GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Manager: PID=1296 TID=1300 Image session successfully loaded from the temporary location: F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C - CDISMManager::CreateImageSession
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Getting Provider OSServices - CDISMProviderStore::GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM OS Provider: PID=1340 TID=1348 Setting SystemPath to F:\ - CDISMOSServiceManager::SetSystemPath
+2024-05-21 14:27:14, Info                  DISM   DISM.EXE: Target image information: OS Version=6.3.9600.17031, Image architecture=amd64
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Getting the collection of providers from an image provider store type. - CDISMProviderStore::GetProviderCollection
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\CbsProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\CbsProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:14, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2024-05-21 14:27:18, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Loaded servicing stack for offline use only. - CDISMPackageManager::RefreshInstanceAndLock
+2024-05-21 14:27:18, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Loaded servicing stack for offline use only. - CDISMPackageManager::RefreshInstanceAndLock
+2024-05-21 14:27:18, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Loaded servicing stack for online use only. - CDISMPackageManager::RefreshInstanceAndLock
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\MsiProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\MsiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\IntlProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\IntlProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\IBSProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Warning               DISM   DISM Provider Store: PID=1340 TID=1348 Failed to Load the provider: F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\IBSProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\DmiProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\DmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM OS Provider: PID=1340 TID=1348 Get the registry path to the SOFTWARE hive located at F:\Windows\system32\config\SOFTWARE and determine if it is loaded. - CDISMOSServiceManager::DetermineBootDrive
+2024-05-21 14:27:18, Info                  DISM   DISM Driver Manager: PID=1340 TID=1348 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\UnattendProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\UnattendProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\Wow64provider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Warning               DISM   DISM Provider Store: PID=1340 TID=1348 Failed to get the IDismObject Interface - CDISMProviderStore::Internal_LoadProvider(hr:0x80004002)
+2024-05-21 14:27:18, Warning               DISM   DISM Provider Store: PID=1340 TID=1348 Failed to Load the provider: F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\Wow64provider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x80004002)
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\SmiProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\SmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\EmbeddedProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Warning               DISM   DISM Provider Store: PID=1340 TID=1348 Failed to Load the provider: F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\EmbeddedProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\AppxProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\AppxProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\AssocProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\AssocProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\GenericProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\GenericProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has not previously been encountered.  Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Loading Provider from location F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\TransmogProvider.dll - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Connecting to the provider located at F:\$WINDOWS.~LS\PackageTemp\601fa593-80f3-4168-9648-a532cfd0196e\12E1DC72-7C00-4572-9133-BDBFF8688D3C\TransmogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Transmog Provider: PID=1340 TID=1348 Current image session is [OFFLINE] - CTransmogManager::GetMode
+2024-05-21 14:27:18, Info                  DISM   DISM Transmog Provider: PID=1340 TID=1348 Determined WinDir path = [F:\Windows] - CTransmogManager::GetWinDirPath
+2024-05-21 14:27:18, Info                  DISM   DISM Transmog Provider: PID=1340 TID=1348 GetProductType: ProductType = [ServerNT] - CTransmogManager::GetProductType
+2024-05-21 14:27:18, Info                  DISM   DISM Transmog Provider: PID=1340 TID=1348 Product Type: [ServerNT] - CTransmogManager::Initialize
+2024-05-21 14:27:18, Info                  DISM   DISM Transmog Provider: PID=1340 TID=1348 Product Type ServerNT : [Yes] - CTransmogManager::Initialize
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Got the collection of providers. Now enumerating them to build the command table.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Log Provider
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: OSServices
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Package Manager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DISM Package Manager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: MsiManager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: MsiManager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: IntlManager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: IntlManager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DriverManager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DriverManager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Unattend Manager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DISM Unattend Manager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: SmiManager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: AppxManager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: AppxManager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: AssocManager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: AssocManager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: GenericManager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: GenericManager.
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: Edition Manager
+2024-05-21 14:27:18, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: Edition Manager.
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Getting Provider DISM Package Manager - CDISMProviderStore::GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Provider has previously been initialized.  Returning the existing instance. - CDISMProviderStore::Internal_GetProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Processing the top level command token(is-serviceable). - CPackageManagerCLIHandler::Private_ValidateCmdLine
+2024-05-21 14:27:18, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Attempting to route to appropriate command handler. - CPackageManagerCLIHandler::ExecuteCmdLine
+2024-05-21 14:27:18, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Routing the command... - CPackageManagerCLIHandler::ExecuteCmdLine
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Package Manager: PID=1340 TID=1348 Finalizing CBS core. - CDISMPackageManager::Finalize
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: DISM Package Manager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(MsiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: MsiManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(IntlManager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: IntlManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(DriverManager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: DriverManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(DISM Unattend Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: DISM Unattend Manager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(SmiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: SmiManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(AppxManager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: AppxManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(AssocManager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: AssocManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(GenericManager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: GenericManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Finalizing the servicing provider(Edition Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: Edition Manager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:18, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:20, Info                  DISM   DISM OS Provider: PID=1340 TID=1348 Successfully unloaded all registry hives. - CDISMOSServiceManager::Final_OnDisconnect
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1340 TID=1348 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:20, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2024-05-21 14:27:20, Info                  DISM   DISM.EXE: 
+2024-05-21 14:27:20, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2024-05-21 14:27:20, Info                  DISM   DISM.EXE: 
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Disconnecting Provider: FolderManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Disconnecting Provider: WimManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Disconnecting Provider: VHDManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Disconnecting Provider: GenericImagingManager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Disconnecting Provider: Compatibility Manager - CDISMProviderStore::Internal_DisconnectProvider
+2024-05-21 14:27:20, Info                  DISM   DISM Provider Store: PID=1296 TID=1300 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
