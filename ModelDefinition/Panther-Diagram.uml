@@ -262,7 +262,7 @@ System:
     </comment>
     <comment
       Id="cac61fce-666a-4427-b7b5-162c56a741cd">
-      <body>Driver paths are "&lt;media&gt;\$WinPEDriver$" and "X:\$WinPEDriver$"</body>
+      <body>Driver path is "&lt;drive&gt;\$WinPEDriver$", &lt;drive&gt; being the drive letter in a recursive volume search</body>
       <annotatedElements>
         <opaqueActionMoniker
           Id="5648f930-b85c-43e5-a5d1-dd311599cdc6"

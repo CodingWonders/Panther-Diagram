@@ -144,7 +144,7 @@ System:
     </comment>
     <comment Id="d25926fa-8c46-4c39-a90b-9203c610a7d3">
       <elementDefinition Id="cac61fce-666a-4427-b7b5-162c56a741cd" />
-      <body>Driver paths are "&lt;media&gt;\$WinPEDriver$" and "X:\$WinPEDriver$"</body>
+      <body>Driver path is "&lt;drive&gt;\$WinPEDriver$", &lt;drive&gt; being the drive letter in a recursive volume search</body>
       <annotatedElements>
         <opaqueActionMoniker Id="28cf027a-53e4-4666-a39d-70d9095ac97d" LastKnownName="Check for pre-configured driver paths" />
       </annotatedElements>
