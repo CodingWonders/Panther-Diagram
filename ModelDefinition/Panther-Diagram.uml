@@ -583,6 +583,11 @@ This is also performed by the DISMTools Preinstallation Environment if architect
           LastKnownLocation="Panther-Diagram.uml" />
       </annotatedElements>
     </comment>
+    <comment
+      Id="43314260-3357-46f2-b004-a3c8124cec74">
+      <body>Panther Diagram - version 0.1.1 (June 2024)
+https://github.com/CodingWonders/Panther-Diagram</body>
+    </comment>
   </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
