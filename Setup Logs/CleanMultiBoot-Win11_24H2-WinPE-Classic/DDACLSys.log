@@ -1,0 +1,43 @@
+05/25 09:11:58	Info	
+
+05/25 09:11:58	Info	Volume name is \\?\Volume{37f36fdc-0000-0000-0000-100000000000}\
+05/25 09:11:58	Info	Mount Point are :
+05/25 09:11:58	Info	
+05/25 09:11:58	Info	Volume is Fixed Drive
+05/25 09:11:58	Info	Volume is ntfs
+05/25 09:11:58	Info	Volume is system
+05/25 09:11:58	Info	
+
+05/25 09:11:58	Info	Volume name is \\?\Volume{37f36fdc-0000-0000-0000-b00955000000}\
+05/25 09:11:58	Info	Mount Point are :
+05/25 09:11:58	Info	C:\	
+05/25 09:11:58	Info	Volume is Fixed Drive
+05/25 09:11:58	Info	Volume is ntfs
+05/25 09:11:58	Info	Volume is not system
+05/25 09:11:58	Info	Volume \\?\Volume{37f36fdc-0000-0000-0000-b00955000000}\ has other OS 1 
+05/25 09:11:58	Info	
+
+05/25 09:11:58	Info	Volume name is \\?\Volume{37f36fdc-0000-0000-0000-300300000000}\
+05/25 09:11:58	Info	Mount Point are :
+05/25 09:11:58	Info	D:\	
+05/25 09:11:58	Info	Volume is Fixed Drive
+05/25 09:11:58	Info	Volume is ntfs
+05/25 09:11:58	Info	Volume is not system
+05/25 09:11:58	Info	Volume \\?\Volume{37f36fdc-0000-0000-0000-300300000000}\ has other OS 1 
+05/25 09:11:58	Info	
+
+05/25 09:11:58	Info	Volume name is \\?\Volume{37f36fdc-0000-0000-0000-a04974000000}\
+05/25 09:11:58	Info	Mount Point are :
+05/25 09:11:58	Info	
+05/25 09:11:58	Info	Volume is Fixed Drive
+05/25 09:11:58	Info	Volume is ntfs
+05/25 09:11:58	Info	Volume is not system
+05/25 09:11:58	Info	Volume \\?\Volume{37f36fdc-0000-0000-0000-a04974000000}\ has other OS 0 
+05/25 09:11:58	Info	SDDL for Volume is D:(A;;FA;;;BA)(A;OICIIO;GA;;;BA)(A;;FA;;;SY)(A;OICIIO;GA;;;SY)(A;;0x1301bf;;;AU)(A;OICIIO;SDGXGWGR;;;AU)(A;;0x1200a9;;;BU)(A;OICIIO;GXGR;;;BU)
+05/25 09:11:58	Info	Volume \\?\Volume{37f36fdc-0000-0000-0000-a04974000000}\ has Default XP DACL 0
+05/25 09:11:58	Info	
+
+05/25 09:11:58	Info	Volume name is \\?\Volume{5fa4833c-1a6e-11ef-ac84-806e6f6e6963}\
+05/25 09:11:58	Info	Mount Point are :
+05/25 09:11:58	Info	E:\	
+05/25 09:11:58	Info	Volume is not Fixed or removable. DriveType is 5

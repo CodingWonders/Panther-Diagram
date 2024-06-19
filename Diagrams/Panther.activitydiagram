@@ -144,7 +144,7 @@ System:
     </comment>
     <comment Id="d25926fa-8c46-4c39-a90b-9203c610a7d3">
       <elementDefinition Id="cac61fce-666a-4427-b7b5-162c56a741cd" />
-      <body>Driver paths are "&lt;media&gt;\$WinPEDriver$" and "X:\$WinPEDriver$"</body>
+      <body>Driver path is "&lt;drive&gt;\$WinPEDriver$", &lt;drive&gt; being the drive letter in a recursive volume search</body>
       <annotatedElements>
         <opaqueActionMoniker Id="28cf027a-53e4-4666-a39d-70d9095ac97d" LastKnownName="Check for pre-configured driver paths" />
       </annotatedElements>
@@ -381,27 +381,12 @@ This is also performed by the DISMTools Preinstallation Environment if architect
         <opaqueActionMoniker Id="07951822-2e87-4cb2-ad2c-665ef529f635" LastKnownName="Save modules with persistent subscriptions (PANTHR::SerializeToFile) (continued)" />
       </annotatedElements>
     </comment>
+    <comment Id="ca672d89-2001-4215-8c5b-e06a565b9ee6">
+      <elementDefinition Id="43314260-3357-46f2-b004-a3c8124cec74" />
+      <body>Panther Diagram - version 0.1.1 (June 2024)
+https://github.com/CodingWonders/Panther-Diagram</body>
+    </comment>
   </ownedCommentsInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="5ae60e47-bfb5-4378-b852-7aa53df37cd4">
-      <profileInstance Id="3a8321c8-3777-4cb4-8e50-43b5d1a322fa" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="c8ffc540-c1fc-4f91-9ffe-8a1846038505">
-      <profileInstance Id="a8a017ec-3b2c-4630-853a-3eb89c74b229" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="85f7b82a-50c4-4ade-9c81-8d5dca5f386f">
-      <profileInstance Id="51f00f91-1793-44c2-ac9b-115baa44e171" name="TextTemplateBindings">
-        <elementDefinition Id="2b7ba203-1d7c-483e-997c-fd085697c107" />
-      </profileInstance>
-      <elementDefinition Id="2c17d1ad-a97b-407e-94dc-1279dcd7a1e5" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <activityRootModelHasActivity>
       <activity Id="e1b28e58-d173-4f5b-abf7-07bafd005d36" name="Windows Setup (Panther)" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
@@ -4029,7 +4014,27 @@ This is also performed by the DISMTools Preinstallation Environment if architect
       </activity>
     </activityRootModelHasActivity>
   </packagedElements>
-  <package Id="5aa91a04-8c51-46f4-824e-9d0d0c93c3c1" name="ModelingSolution">
+  <package Id="5aa91a04-8c51-46f4-824e-9d0d0c93c3c1" name="Panther-Diagram">
     <elementDefinition Id="ab9c6426-e675-46c7-8afd-7a866f15db75" />
+    <profileInstances>
+      <packageHasProfileInstances Id="5ae60e47-bfb5-4378-b852-7aa53df37cd4">
+        <profileInstance Id="3a8321c8-3777-4cb4-8e50-43b5d1a322fa" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c8ffc540-c1fc-4f91-9ffe-8a1846038505">
+        <profileInstance Id="a8a017ec-3b2c-4630-853a-3eb89c74b229" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="85f7b82a-50c4-4ade-9c81-8d5dca5f386f">
+        <profileInstance Id="51f00f91-1793-44c2-ac9b-115baa44e171" name="TextTemplateBindings">
+          <elementDefinition Id="2b7ba203-1d7c-483e-997c-fd085697c107" />
+        </profileInstance>
+        <elementDefinition Id="2c17d1ad-a97b-407e-94dc-1279dcd7a1e5" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </activityRootModel>

@@ -1,0 +1,227 @@
+﻿<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] UnattendSearchSetupSourceDrive: Unable to convert ARC path [MULTI(0)DISK(0)CDROM(0)] to NT path; status = 0x80070002." PID="2348" TID="2352" Con="" Exe="X:\Sources\setup.exe" Mod="UNATTEND.DLL" Err="0" MD="" DT="2024-05-25T09:06:51"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="391" Fil="" Fun="PersistUnattendInfoToBlackboard" Uid="50724864" Msg="CallBack_StorageConfiguration_ParseUnattend: Not running in unattend mode" PID="2348" TID="2352" Con="" Exe="X:\Sources\setup.exe" Mod="WinSetup.dll" Err="1168" MD="" DT="2024-05-25T09:06:51"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="382" Fil="" Fun="CLanguages::v_InitLanguage" Uid="50987008" Msg="CLanguages::v_InitLanguage - Failed to load en-US resources with error 2. Will load fallback binaries" PID="2348" TID="2352" Con="" Exe="X:\Sources\setup.exe" Mod="UXLIB.DLL" Err="2" MD="" DT="2024-05-25T09:06:52"/>
+<z:row Cls="D" Sev="50331648" Maj="diagnostic" Min="Def" LN="94" Fil="" Fun="CAccessWMI::LogErrorMessage" Uid="50790438" Msg="Win32_Processor : Unable to retrieve Stepping, vtType = 8. Error code = 0x0" PID="2348" TID="2380" Con="" Exe="X:\Sources\setup.exe" Mod="diagnostic.dll" Err="0" MD="" DT="2024-05-25T09:06:56"/>
+<z:row Cls="D" Sev="50331648" Maj="diagnostic" Min="Def" LN="94" Fil="" Fun="CAccessWMI::LogErrorMessage" Uid="50790541" Msg="Win32_Processor : CoInitializeEx returned RPC_E_CHANGED_MODE. Continue. Error code = 0x80010106" PID="2348" TID="2588" Con="" Exe="X:\Sources\setup.exe" Mod="diagnostic.dll" Err="0" MD="" DT="2024-05-25T09:07:03"/>
+<z:row Cls="D" Sev="50331648" Maj="diagnostic" Min="Def" LN="94" Fil="" Fun="CAccessWMI::LogErrorMessage" Uid="50790438" Msg="Win32_Processor : Unable to retrieve Stepping, vtType = 8. Error code = 0x0" PID="2348" TID="2588" Con="" Exe="X:\Sources\setup.exe" Mod="diagnostic.dll" Err="0" MD="" DT="2024-05-25T09:07:04"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1232" Fil="" Fun="CallbackAppCompatProgress" Uid="50987008" Msg="[APPCOMPAT UI] Got CallbackAppCompatProgress without compat progress page active" PID="2348" TID="2588" Con="" Exe="X:\Sources\setup.exe" Mod="win32ui.dll" Err="0" MD="" DT="2024-05-25T09:07:06"/>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="2342" Fil="" Fun="LogCallback" Uid="50726604" Msg="DeleteFileEx: Unable to open [E:\$WINDOWS.~BT\Sources\Rollback\bootsec.dat]; GLE = 0x2" PID="2348" TID="2352" Con="" Exe="X:\Sources\setup.exe" Mod="WinSetup.dll" Err="2" MD="" DT="2024-05-25T09:08:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1497" Fil="" Fun="SclLogCallback" Uid="50724864" Msg="[SetupCl library] Required profile hive does not exist: [\??\E:\WINDOWS\system32\config\systemprofile\NTUSER.DAT]." PID="2348" TID="2352" Con="" Exe="X:\Sources\setup.exe" Mod="WinSetup.dll" Err="0" MD="" DT="2024-05-25T09:10:56"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1497" Fil="" Fun="SclLogCallback" Uid="50724864" Msg="[SetupCl library] Required profile hive does not exist: [\??\E:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT]." PID="2348" TID="2352" Con="" Exe="X:\Sources\setup.exe" Mod="WinSetup.dll" Err="0" MD="" DT="2024-05-25T09:10:56"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1497" Fil="" Fun="SclLogCallback" Uid="50724864" Msg="[SetupCl library] Required profile hive does not exist: [\??\E:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT]." PID="2348" TID="2352" Con="" Exe="X:\Sources\setup.exe" Mod="WinSetup.dll" Err="0" MD="" DT="2024-05-25T09:10:56"/>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="127" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\LangPacks\LanguageList\es-es] Value name [SrcLocation]. Path name X:\Langpacks\es-es." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2024-05-25T09:11:57"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="127" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\DiskInfo\Disk0\RegionAtOffset53477376] Value name [DrivePath]. Path name F:\." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2024-05-25T09:11:57"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="127" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\DiskInfo\Disk0\RegionAtOffset499451428864] Value name [DrivePath]. Path name G:\." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2024-05-25T09:11:57"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="127" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\InstallSource] Value name [InstallSourcesPath]. Path name J:\Sources." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2024-05-25T09:11:57"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="127" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\ImageInfo\OSImage] Value name [FilePath]. Path name J:\Sources\install.wim." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2024-05-25T09:11:57"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="95" Fil="" Fun="DetermineIfReRegisterOnUpgrade" Uid="51314688" Msg="DetermineIfReRegisterOnUpgrade: setupApplicationsKey.Open() failed 0x80070002, assuming Yes" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="AppxSysprep.dll" Err="0" MD="" DT="2024-05-25T09:12:21"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="154" Fil="" Fun="EnsureStagedKeyReflectsWindowsAppsFolder" Uid="51314688" Msg="Ignoring folder Deleted because could not convert to family name" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="AppxSysprep.dll" Err="0" MD="" DT="2024-05-25T09:12:21"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="154" Fil="" Fun="EnsureStagedKeyReflectsWindowsAppsFolder" Uid="51314688" Msg="Ignoring folder Merged because could not convert to family name" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="AppxSysprep.dll" Err="0" MD="" DT="2024-05-25T09:12:21"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="154" Fil="" Fun="EnsureStagedKeyReflectsWindowsAppsFolder" Uid="51314688" Msg="Ignoring folder Mutable because could not convert to family name" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="AppxSysprep.dll" Err="0" MD="" DT="2024-05-25T09:12:21"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="154" Fil="" Fun="EnsureStagedKeyReflectsWindowsAppsFolder" Uid="51314688" Msg="Ignoring folder MutableBackup because could not convert to family name" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="AppxSysprep.dll" Err="0" MD="" DT="2024-05-25T09:12:21"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="154" Fil="" Fun="EnsureStagedKeyReflectsWindowsAppsFolder" Uid="51314688" Msg="Ignoring folder Projected because could not convert to family name" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="AppxSysprep.dll" Err="0" MD="" DT="2024-05-25T09:12:21"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="2017" Fil="" Fun="SpecializeBcdStore" Uid="51314688" Msg="SpecializeBcdStore: The /detecthal switch could not be removed because it was not found." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="spbcd.dll" Err="0" MD="" DT="2024-05-25T09:14:18"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] read xml file (\Recovery\ReAgentOld.xml) failed: 0x2" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] ReAgentXMLParser::ParseConfigFile failed to read config xml file (0x2) in file base\diagnosis\srt\reagent2\reinfo\parser_2.0.cpp line 825" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] ReAgentXMLParser::ParseConfigFile (xml file: \Recovery\ReAgentOld.xml) returning 0x2" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] failed to get child attribute by tag: 0xd" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] MeetPartitionRequirements Not enough free space req = 585228387 avail = 24621056 offset = 499451428864 " PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] MeetPartitionRequirements Not enough free space req = 637657187 avail = 19505152 offset = 1048576 " PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] Recovery file not found at C:\Windows\system32\Recovery\ReCustomization.xml" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:23"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[setup.exe] winreBackupRecoveryFile (C:\Windows\system32\Recovery\ReCustomization.xml, ReCustomization.xml) failed, Err: 2" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="reagent.dll" Err="0" MD="" DT="2024-05-25T09:14:23"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="706" Fil="" Fun="CheckAndEnableHvci" Uid="51314688" Msg="HVCI: Compatibility did not pass." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="vbssysprep.dll" Err="0" MD="" DT="2024-05-25T09:14:45"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="706" Fil="" Fun="CheckAndEnableHvci" Uid="51314688" Msg="HVCI: Compatibility did not pass." PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="vbssysprep.dll" Err="0" MD="" DT="2024-05-25T09:14:45"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="391" Fil="" Fun="PersistUnattendInfoToBlackboard" Uid="50724864" Msg="CallBack_StorageConfiguration_ParseUnattend: Not running in unattend mode" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="1168" MD="" DT="2024-05-25T09:14:45"/>
+</rs:data>
+</xml>

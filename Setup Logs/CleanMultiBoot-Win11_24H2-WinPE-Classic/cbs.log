@@ -1,0 +1,144 @@
+﻿2024-05-25 09:10:56, Info                  DISM   PID=2168 TID=2176 Scratch directory set to 'X:\windows\SystemTemp\'. - CDISMManager::put_ScratchDir
+2024-05-25 09:10:56, Info                  DISM   PID=2168 TID=2176 DismCore.dll version: 10.0.26100.1 - CDISMManager::FinalConstruct
+2024-05-25 09:10:56, Info                  DISM   PID=2168 TID=2176 Scratch directory set to 'E:\$WINDOWS.~LS\PackageTemp\162c1d10-4e05-4648-bea3-c9e94564177e'. - CDISMManager::put_ScratchDir
+2024-05-25 09:10:56, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2024-05-25 09:10:56, Info                  DISM   PID=2168 TID=2176 Successfully loaded the ImageSession at "X:\Sources" - CDISMManager::LoadLocalImageSession
+2024-05-25 09:10:56, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2024-05-25 09:10:56, Info                  DISM   DISM Provider Store: PID=2168 TID=2176 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2024-05-25 09:10:56, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2024-05-25 09:10:56, Info                  DISM   DISM Manager: PID=2168 TID=2176 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2024-05-25 09:10:56, Info                  DISM   DISM.EXE: 
+2024-05-25 09:10:56, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2024-05-25 09:10:56, Info                  DISM   DISM.EXE: 
+2024-05-25 09:10:56, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.26100, Running architecture=amd64, Number of processors=4
+2024-05-25 09:10:56, Info                  DISM   DISM.EXE: Instance information: Parent process=X:\sources\setup.exe, Parent process PID=2348
+2024-05-25 09:10:56, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.26100.1
+2024-05-25 09:10:56, Info                  DISM   DISM.EXE: Executing command line: X:\Sources\dism.exe  /logpath:E:\$WINDOWS.~BT\Sources\Panther\cbs.log /scratchdir:E:\$WINDOWS.~LS\PackageTemp\162c1d10-4e05-4648-bea3-c9e94564177e /image:E:\ /is-serviceable
+2024-05-25 09:10:56, Warning               DISM   DISM Provider Store: PID=2168 TID=2176 Failed to retrieve the Provider Instance. - CDISMProviderStore::Internal_GetProvider(hr:0x80004005)
+2024-05-25 09:10:56, Info                  DISM   DISM VHD Provider: PID=2168 TID=2176 [E:\] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2024-05-25 09:10:56, Info                  DISM   DISM Imaging Provider: PID=2168 TID=2176 The provider VHDManager does not support CreateDismImage on E:\ - CGenericImagingManager::CreateDismImage
+[2168.2176] [0x80070002] FIOReadFileIntoBuffer:(1454): El sistema no puede encontrar el archivo especificado.
+[2168.2176] [0xc142011c] UnmarshallImageHandleFromDirectory:(641)
+[2168.2176] [0xc142011c] WIMGetMountedImageHandle:(2910)
+2024-05-25 09:10:56, Info                  DISM   DISM WIM Provider: PID=2168 TID=2176 [E:\] is not a WIM mount point. - CWimMountedImageInfo::Initialize
+2024-05-25 09:10:56, Info                  DISM   DISM Imaging Provider: PID=2168 TID=2176 The provider WimManager does not support CreateDismImage on E:\ - CGenericImagingManager::CreateDismImage
+2024-05-25 09:10:56, Info                  DISM   DISM Imaging Provider: PID=2168 TID=2176 No imaging provider supported CreateDismImage for this path - CGenericImagingManager::CreateDismImage
+[2168.2176] [0x80070002] FIOReadFileIntoBuffer:(1454): El sistema no puede encontrar el archivo especificado.
+[2168.2176] [0xc142011c] UnmarshallImageHandleFromDirectory:(641)
+[2168.2176] [0xc142011c] WIMGetMountedImageHandle:(2910)
+2024-05-25 09:10:56, Info                  DISM   DISM WIM Provider: PID=2168 TID=2176 [E:\] is not a WIM mount point. - CWimMountedImageInfo::Initialize
+2024-05-25 09:10:56, Info                  DISM   DISM VHD Provider: PID=2168 TID=2176 [E:\] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2024-05-25 09:10:56, Info                  DISM   DISM Manager: PID=2168 TID=2176 physical location path: E:\ - CDISMManager::CreateImageSession
+2024-05-25 09:10:56, Info                  DISM   DISM Manager: PID=2168 TID=2176 Event name for current DISM session is Global\__?_Volume{37f36fdc-0000-0000-0000-b00955000000}__2287206987_65536_51313 - CDISMManager::CheckSessionAndLock
+2024-05-25 09:10:56, Info                  DISM   DISM Manager: PID=2168 TID=2176 Create session event 0x26c for current DISM session and event name is Global\__?_Volume{37f36fdc-0000-0000-0000-b00955000000}__2287206987_65536_51313  - CDISMManager::CheckSessionAndLock
+2024-05-25 09:10:56, Info                  DISM   DISM Manager: PID=2168 TID=2176 Copying DISM from "E:\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2024-05-25 09:10:56, Info                  DISM   DISM Manager: PID=2168 TID=2176 Successfully loaded the ImageSession at "E:\$WINDOWS.~LS\PackageTemp\162c1d10-4e05-4648-bea3-c9e94564177e\1E887376-6191-4D02-B204-BA078ED6BD25" - CDISMManager::LoadRemoteImageSession
+2024-05-25 09:10:56, Info                  DISM   DISM Image Session: PID=2600 TID=2636 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2024-05-25 09:10:56, Info                  DISM   DISM OS Provider: PID=2600 TID=2636 Defaulting SystemPath to E:\ - CDISMOSServiceManager::Final_OnConnect
+2024-05-25 09:10:56, Info                  DISM   DISM OS Provider: PID=2600 TID=2636 Defaulting Windows folder to E:\Windows - CDISMOSServiceManager::Final_OnConnect
+2024-05-25 09:10:56, Info                  DISM   DISM Provider Store: PID=2600 TID=2636 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2024-05-25 09:10:56, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2024-05-25 09:10:56, Info                  DISM   DISM Provider Store: PID=2600 TID=2636 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2024-05-25 09:10:56, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2024-05-25 09:10:56, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2024-05-25 09:10:56, Info                  DISM   DISM Manager: PID=2168 TID=2176 Image session successfully loaded from location: E:\$WINDOWS.~LS\PackageTemp\162c1d10-4e05-4648-bea3-c9e94564177e\1E887376-6191-4D02-B204-BA078ED6BD25 - CDISMManager::CreateImageSession
+2024-05-25 09:10:56, Info                  DISM   DISM OS Provider: PID=2600 TID=2624 Setting SystemPath to E:\ - CDISMOSServiceManager::SetSystemPath
+2024-05-25 09:10:57, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.26100.560, Image architecture=amd64
+2024-05-25 09:10:57, Info                  DISM   DISM.EXE: Image session version: 10.0.26100.1
+2024-05-25 09:10:57, Info                  DISM   DISM Transmog Provider: PID=2600 TID=2624 Current image session is [OFFLINE] - CTransmogManager::GetMode
+2024-05-25 09:10:57, Info                  DISM   DISM OS Provider: PID=2600 TID=2624 Determined System directory to be E:\Windows\System32 - CDISMOSServiceManager::get_SystemDirectory
+2024-05-25 09:10:57, Info                  DISM   DISM Transmog Provider: PID=2600 TID=2624 Determined WinDir path = [E:\Windows] - CTransmogManager::GetWinDirPath
+2024-05-25 09:10:57, Info                  DISM   DISM Transmog Provider: PID=2600 TID=2624 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType
+2024-05-25 09:10:57, Info                  DISM   DISM Transmog Provider: PID=2600 TID=2624 Product Type: [WinNT] - CTransmogManager::Initialize
+2024-05-25 09:10:57, Info                  DISM   DISM Transmog Provider: PID=2600 TID=2624 Product Type ServerNT : [No] - CTransmogManager::Initialize
+2024-05-25 09:10:57, Info                  CSI    00000001 Shim considered [l:122]'\??\E:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.558_none_ab5c3705b04c9468\wcp.dll' : got STATUS_SUCCESS
+2024-05-25 09:10:58, Info                  DISM   DISM Driver Manager: PID=2600 TID=2624 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2024-05-25 09:10:58, Info                  DISM   DISM Package Manager: PID=2600 TID=2624 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2024-05-25 09:10:58, Info                  CSI    00000001 Shim considered [l:122]'\??\E:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.558_none_ab5c3705b04c9468\wcp.dll' : got STATUS_SUCCESS
+2024-05-25 09:10:58, Info                  CBS    Universal Time is: 2024-05-25 08:10:58.509
+2024-05-25 09:10:58, Info                  CBS    Offline servicing, skipping online catalog installation
+2024-05-25 09:10:58, Info                  CBS    Offline servicing, using stack version from: E:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.558_none_ab5c3705b04c9468\cbscore.dll
+2024-05-25 09:10:58, Info                  CBS    Loaded Servicing Stack v10.0.26100.558 with Core: E:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.558_none_ab5c3705b04c9468\cbscore.dll
+2024-05-25 09:10:58, Info                  CBS    Setting core mode: CbsCoreModeOffline
+2024-05-25 09:10:58, Info                  CSI    00000001@2024/5/25:08:10:58.509 WcpInitialize: wcp.dll version 10.0.26100.558 (WinBuild.160101.0800)
+2024-05-25 09:10:58, Info                  CBS    TurboContainer load Successful
+2024-05-25 09:10:58, Info                  CBS    Lock: New lock added: CCbsSessionManager, level: 11, total lock:9
+2024-05-25 09:10:58, Info                  CBS    Lock: New lock added: CSIInventoryCriticalSection, level: 64, total lock:10
+2024-05-25 09:10:58, Info                  DISM   DISM Package Manager: PID=2600 TID=2624 Loaded servicing stack for offline use only. - CDISMPackageManager::CreateCbsSession
+2024-05-25 09:10:58, Info                  CBS    Lazy store initialization mode
+2024-05-25 09:10:58, Info                  CSI    00000001 Shim considered [l:122]'\??\E:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.558_none_ab5c3705b04c9468\wcp.dll' : got STATUS_SUCCESS
+2024-05-25 09:10:58, Info                  DISM   DISM Package Manager: PID=2600 TID=2636 Processing the top level command token(is-serviceable). - CPackageManagerCLIHandler::Private_ValidateCmdLine
+2024-05-25 09:10:58, Info                  DISM   DISM Package Manager: PID=2600 TID=2636 Attempting to route to appropriate command handler. - CPackageManagerCLIHandler::ExecuteCmdLine
+2024-05-25 09:10:58, Info                  DISM   DISM Package Manager: PID=2600 TID=2636 Routing the command... - CPackageManagerCLIHandler::ExecuteCmdLine
+2024-05-25 09:10:58, Info                  CBS    Lazy store initialization mode, fully initialize.
+2024-05-25 09:10:58, Info                  CBS    Offline image is writable
+2024-05-25 09:10:58, Info                  CBS    Loading offline registry hive: SOFTWARE, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SOFTWARE' from path '\\?\E:\Windows\System32\config\SOFTWARE'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: SYSTEM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SYSTEM' from path '\\?\E:\Windows\System32\config\SYSTEM'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: SECURITY, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SECURITY' from path '\\?\E:\Windows\System32\config\SECURITY'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: SAM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SAM' from path '\\?\E:\Windows\System32\config\SAM'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: COMPONENTS, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/COMPONENTS' from path '\\?\E:\Windows\System32\config\COMPONENTS'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: DRIVERS, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/DRIVERS' from path '\\?\E:\Windows\System32\config\DRIVERS'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: DEFAULT, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/DEFAULT' from path '\\?\E:\Windows\System32\config\DEFAULT'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: ntuser.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Users/Default/ntuser.dat' from path '\\?\E:\Users\Default\ntuser.dat'.
+2024-05-25 09:10:59, Info                  CBS    Loading offline registry hive: schema.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/system32/smi/store/Machine/schema.dat' from path '\\?\E:\Windows\system32\smi\store\Machine\schema.dat'.
+2024-05-25 09:10:59, Info                  CSI    00000002 Perf: LRU Cache Initialize @0x236e032ed60; Maximum Size: 948 MiB; Initial Elements: 8192
+2024-05-25 09:10:59, Info                  CSI    00000003 CSI Store 2434746608352 initialized
+2024-05-25 09:10:59, Info                  CBS    Build: 26100.1.amd64fre.ge_release.240331-1435
+2024-05-25 09:10:59, Info                  CBS    Module starts contributing to an existing logging session
+2024-05-25 09:10:59, Info                  SXS    TurboStack version 10.0.26100.558 (WinBuild.160101.0800) loaded from E:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.558_none_ab5c3705b04c9468
+2024-05-25 09:10:59, Info                  CSI    00000004@2024/5/25:08:10:59.323 WcpInitialize: wcp.dll version 10.0.26100.558 (WinBuild.160101.0800)
+2024-05-25 09:10:59, Info                  SXS    Loading registry hive E:\Windows\System32\config\SOFTWARE with flags 0x00000010
+2024-05-25 09:10:59, Info                  SXS    Loading registry hive E:\Windows\System32\config\SYSTEM with flags 0x00000010
+2024-05-25 09:10:59, Info                  CSI    00000005 Perf: LRU Cache Initialize @0x236e234ae30; Maximum Size: 948 MiB; Initial Elements: 8192
+2024-05-25 09:10:59, Info                  SXS    Initialized store, arch=amd64, style=Desktop, compact=false, windir=E:\Windows, sandbox=
+2024-05-25 09:10:59, Info                  CBS    Session: 2600_385593 initialized by client DISM Package Manager Provider
+2024-05-25 09:10:59, Info                  SXS    Removing reference on previously loaded registry hive: \Registry\Machine\{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SOFTWARE
+2024-05-25 09:10:59, Info                  SXS    Removing reference on previously loaded registry hive: \Registry\Machine\{bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SYSTEM
+2024-05-25 09:10:59, Info                  CSI    00000006 Perf: LRU Cache Clear @0x236e234ae30
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SOFTWARE
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SYSTEM
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SECURITY
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/SAM
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/COMPONENTS
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/DRIVERS
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/System32/config/DEFAULT
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Users/Default/ntuser.dat
+2024-05-25 09:10:59, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}E:/Windows/system32/smi/store/Machine/schema.dat
+2024-05-25 09:10:59, Info                  CSI    00000007 Perf: LRU Cache Clear @0x236e032ed60
+2024-05-25 09:10:59, Info                  CSI    00000008 Direct SIL provider: Number of files opened: 4.
+2024-05-25 09:10:59, Info                  DISM   DISM Package Manager: PID=2600 TID=2636 Finalizing CBS core. - CDISMPackageManager::Finalize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2024-05-25 09:10:59, Info                  CBS    Execution Engine Finalize
+2024-05-25 09:10:59, Info                  CBS    Execution Engine Finalize
+2024-05-25 09:10:59, Info                  CBS    Execution Engine Finalize
+2024-05-25 09:10:59, Info                  CBS    Execution Engine Finalize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2024-05-25 09:10:59, Info                  CBS    Lock: Lock removed: CSIInventoryCriticalSection, level: 64, total lock:10
+2024-05-25 09:10:59, Info                  CBS    Lock: Lock removed: CCbsSessionManager, level: 11, total lock:9
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: GetPublicObjectMonitor::Audit
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: WcpUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: DrupUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: DpxUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: SrUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: TurboStackUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: TurboContainerUnload
+2024-05-25 09:10:59, Info                  CBS    TurboContainer unload Successful
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: CbsOneSettingsFinalize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2024-05-25 09:10:59, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2024-05-25 09:10:59, Info                  DISM   DISM Manager: PID=2168 TID=2176 Closing session event handle 0x26c - CDISMManager::CleanupImageSessionEntry
+2024-05-25 09:10:59, Info                  DISM   DISM Manager: DeletePath: Attempting to obliterate [E:\$WINDOWS.~LS\PackageTemp\162c1d10-4e05-4648-bea3-c9e94564177e\1E887376-6191-4D02-B204-BA078ED6BD25] (final path [\\?\Volume{37f36fdc-0000-0000-0000-b00955000000}\$WINDOWS.~LS\PackageTemp\162c1d10-4e05-4648-bea3-c9e94564177e\1E887376-6191-4D02-B204-BA078ED6BD25]).
+2024-05-25 09:10:59, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2024-05-25 09:10:59, Info                  DISM   DISM.EXE: 
+2024-05-25 09:10:59, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2024-05-25 09:10:59, Info                  DISM   DISM.EXE: 
